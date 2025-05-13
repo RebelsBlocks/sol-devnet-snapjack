@@ -1,0 +1,23 @@
+{
+  "name": "blackjack-backend",
+  "version": "1.0.0",
+  "description": "Backend server for Blackjack game",
+  "main": "blackjack_server.js",
+  "scripts": {
+    "start": "node blackjack_server.js",
+    "dev": "nodemon blackjack_server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.9.0",
+    "@solana/web3.js": "^1.78.0",
+    "@solana/spl-token": "^0.3.8",
+    "bs58": "^5.0.0",
+    "bn.js": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
