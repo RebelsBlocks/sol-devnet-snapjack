@@ -1,4 +1,4 @@
-# Wars of Cards: Snapjack
+# Snapjack
 
 A Solana blockchain-based card game server for Snapjack.
 
